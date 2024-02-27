@@ -2,7 +2,6 @@
   "name": "jest-testing",
   "version": "1.0.0",
   "description": "",
-<<<<<<< HEAD
   "main": "\\",
   "scripts": {
     "test": "jest"
@@ -19,12 +18,4 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
   }
-=======
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "author": "",
-  "license": "ISC"
->>>>>>> refs/remotes/origin/main
-}
+ 
