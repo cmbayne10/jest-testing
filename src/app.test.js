@@ -1,8 +1,10 @@
-import { add } from './app'
+import { add, subtract } from "./app";
 
-describe('my test suite',()=>{
-    it('first test', ()=>{
-     expect(add(1,1)).toEqual(2);
-    });
+describe("my test suite", () => {
+  it("adds 1+1", () => {
+    expect(add(1, 1)).toEqual(2);
+  });
+  it("subtracts 2-1", () => {
+    expect(subtract(2, 1)).toEqual(1);
+  });
 });
-
