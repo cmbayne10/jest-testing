@@ -1,4 +1,4 @@
-import { add, subtract, multiply, divide } from "./app";
+import { add, subtract, multiply, divide, fizzbuzz } from "./app";
 
 describe("my test suite", () => {
   it("adds 1+1", () => {
@@ -13,10 +13,8 @@ describe("my test suite", () => {
   it("divide 2442468/4", () => {
     expect(divide(2442468, 4)).toEqual(610617);
   });
-const fizz = 3
-  const buzz = 5
-  const fizzbuzz = fizz/buzz
+  it("fizzbuzz returns 1", () => {
+    const extracted = fizzbuzz(1);
+    expect(extracted).toEqual(1);
+  });
 });
- 
- 
-
