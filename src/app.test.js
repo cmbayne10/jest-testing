@@ -13,11 +13,9 @@ describe("my test suite", () => {
   it("divide 2442468/4", () => {
     expect(divide(2442468, 4)).toEqual(610617);
   });
-
-  const fizz = 3
+const fizz = 3
   const buzz = 5
   const fizzbuzz = fizz/buzz
- 
 });
  
  
