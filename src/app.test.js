@@ -25,8 +25,8 @@ describe("my test suite", () => {
       console.log(n + "buzz");
     }
   }});
-  checkNumber(10);
-  checkNumber(3);
+  checkNumber(20);
+  checkNumber(9);
 
 });
 
