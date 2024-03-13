@@ -13,5 +13,6 @@ export function divide(a, b) {
 export function fizzbuzz(a) {
   return a;
 }
-
-
+export function checkNumber (a) {
+  return a;
+}

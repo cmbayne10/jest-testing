@@ -1,4 +1,4 @@
-import { add, subtract, multiply, divide, fizzbuzz } from "./app";
+import { add, subtract, multiply, divide, fizzbuzz, checkNumber } from "./app";
 
 describe("my test suite", () => {
   it("adds 1+1", () => {
@@ -17,4 +17,17 @@ describe("my test suite", () => {
     const extracted = fizzbuzz(1);
     expect(extracted).toEqual(1);
   });
+  it("checknumber decides if fizz/buzz", () => {
+  const checkNumber = (n) => {
+    if (n % 3 === 0) {
+      console.log(n + "fizz");
+    } else (n % 5 === 0); {
+      console.log(n + "buzz");
+    }
+  }});
+  checkNumber(10);
+  checkNumber(3);
+
 });
+
+
