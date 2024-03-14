@@ -20,9 +20,9 @@ describe("my test suite", () => {
   it("checknumber decides if fizz/buzz", () => {
   const checkNumber = (n) => {
     if (n % 3 === 0) {
-      console.log(n + "fizz");
+      console.log("fizz");
     } else (n % 5 === 0); {
-      console.log(n + "buzz");
+      console.log("buzz");
     }
   }});
   checkNumber(20);
