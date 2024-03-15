@@ -14,5 +14,5 @@ export function fizzbuzz(a) {
   return a;
 }
 export function checkNumber(number) {
-  return console.log;
+  return (number) % (5, 3);
 }
