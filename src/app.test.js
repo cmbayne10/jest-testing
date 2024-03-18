@@ -17,15 +17,24 @@ describe("my test suite", () => {
     const extracted = fizzbuzz(1);
     expect(extracted).toEqual(1);
   });
-  it("checknumber decides if fizz/buzz", () => {
+  it("checknumber decides if number = fizz", () => {
   const checkNumber = (n) => {
     if (n % 3 === 0) {
       console.log('fizz');
-    } else (n % 5 === 0); {
-      console.log('buzz');
+    } else {
+      return number
     }
-  }});
 checkNumber(39)
+  }});
+  it("checknumber decides if number = buzz", () => {
+    const checkNumber = (n) => {
+      if (n % 5 === 0) {
+        console.log('buzz');
+      } else {
+        return number
+      }
+  checkNumber(39)
+    }});
 });
 
 
