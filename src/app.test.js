@@ -17,4 +17,12 @@ describe("my test suite", () => {
     const extracted = fizzbuzz(1);
     expect(extracted).toEqual(1);
   });
+  it("fizzbuzz returns 2", () => {
+    const extracted = fizzbuzz(2);
+    expect(extracted).toEqual(2);
+  });
+  it("fizzbuzz returns fizz", () => {
+    const extracted = fizzbuzz(3);
+    expect(extracted).toEqual("fizz");
+  });
 });

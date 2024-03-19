@@ -13,5 +13,3 @@ export function divide(a, b) {
 export function fizzbuzz(a) {
   return a;
 }
-
-
