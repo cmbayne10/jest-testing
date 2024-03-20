@@ -1,4 +1,4 @@
-import { add, subtract, multiply, divide, fizzbuzz, checkNumber } from "./app";
+import { add, subtract, multiply, divide, fizzbuzz } from "./app";
 
 describe("my test suite", () => {
   it("adds 1+1", () => {
@@ -17,15 +17,20 @@ describe("my test suite", () => {
     const extracted = fizzbuzz(1);
     expect(extracted).toEqual(1);
   });
-<<<<<<< HEAD
   it("fizzbuzz returns 2", () => {
     const extracted = fizzbuzz(2);
     expect(extracted).toEqual(2);
   });
-  it("fizzbuzz returns fizz", () => {
+  it("passing 3 to fizzbuzz returns fizz", () => {
     const extracted = fizzbuzz(3);
     expect(extracted).toEqual("fizz");
   });
-
-
-
+  it("passing 5 to fizzbuzz returns buzz", () => {
+    const result = fizzbuzz(5);
+    expect(result).toEqual("buzz");
+  });
+  it("passing 15 to fizzbuzz returns fizzbuzz", () => {
+    const result = fizzbuzz(15);
+    expect(result).toEqual("fizzbuzz");
+  });
+});
