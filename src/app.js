@@ -22,3 +22,8 @@ export function fizzbuzz(a) {
   }
   return a;
 }
+export function fizzbuzzTo(a){
+  if (a % 3 === 0) {
+    return ["1", "2"  === "fizz"];
+  }
+}
