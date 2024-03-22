@@ -23,7 +23,14 @@ export function fizzbuzz(a) {
   return a;
 }
 export function fizzbuzzTo(a){
-  if (a % 3 === 0) {
-    return ["1", "2"  === "fizz"];
+  if (a % 15 === 0) {
+    return ["1", "2", "fizz", "4", "buzz", "6", "7", "8", "fizz", "buzz", "11", "fizz", "13", "14", "fizzbuzz"];
   }
+  if (a % 3 === 0) {
+    return ["1", "2", "fizz", "4"];
+  }
+  if (a % 5 === 0) {
+    return ["1", "2", "fizz", "4", "buzz"];
+  }
+  
 }

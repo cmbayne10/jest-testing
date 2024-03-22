@@ -36,5 +36,13 @@ describe("my test suite", () => {
   it("refining fizzbuzz with fizzbuzzTo", () => {
     const result = fizzbuzz(3);
     expect(result).toEqual("fizz")
-})
+  });
+  it("passing 5 to fizzbuzz returns buzz", () => {
+  const result = fizzbuzz(5);
+  expect(result).toEqual("buzz");
+  });
+  it("passing 15 to fizzbuzz returns fizzbuzz", () => {
+  const result = fizzbuzz(15);
+  expect(result).toEqual("fizzbuzz");
+  });
 });
