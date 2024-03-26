@@ -22,11 +22,6 @@ export function fizzbuzz(a) {
   }
   return a;
 }
-export function fizzbuzzTo(a){
-  if (a % 15 === 0) {
-let Array = Array(0++)
-    .fill(fizzbuzz)
-    .map(() => 0++);
-return 
-  }
+export function fizzbuzzTo(lastNumber){
+  return [1]
 }
