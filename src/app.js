@@ -24,13 +24,9 @@ export function fizzbuzz(a) {
 }
 export function fizzbuzzTo(a){
   if (a % 15 === 0) {
-    return ["1", "2", "fizz", "4", "buzz", "6", "7", "8", "fizz", "buzz", "11", "fizz", "13", "14", "fizzbuzz"];
+let Array = Array(0++)
+    .fill(fizzbuzz)
+    .map(() => 0++);
+return 
   }
-  if (a % 3 === 0) {
-    return ["1", "2", "fizz", "4"];
-  }
-  if (a % 5 === 0) {
-    return ["1", "2", "fizz", "4", "buzz"];
-  }
-  
 }

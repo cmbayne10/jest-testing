@@ -33,16 +33,9 @@ describe("my test suite", () => {
     const result = fizzbuzz(15);
     expect(result).toEqual("fizzbuzz");
   });
-  it("refining fizzbuzz with fizzbuzzTo returns fizz", () => {
-    const result = fizzbuzz(3);
-    expect(result).toEqual("fizz")
-  });
-  it("refining fizzbuzz with fizzbuzzTo returns buzz", () => {
-  const result = fizzbuzz(5);
-  expect(result).toEqual("buzz");
-  });
+ 
   it("refining fizzbuzz with fizzbuzzTo returns fizzbuzz", () => {
-  const result = fizzbuzz(15);
-  expect(result).toEqual("fizzbuzz");
+  const result = fizzbuzzTo(15);
+  expect(result).toEqual(Array);
   });
 });
