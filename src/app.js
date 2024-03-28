@@ -27,5 +27,6 @@ export function fizzbuzzTo(lastNumber) {
   for (let i = 1; i <= lastNumber; i++) {
     list.push(i);
   }
-  return [1]
+  console.log(list);
+  return list;
 }
