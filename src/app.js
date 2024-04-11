@@ -25,11 +25,9 @@ export function fizzbuzz(a) {
 export function fizzbuzzTo(lastNumber) {
   const list = []
   for (let i = 1; i <= lastNumber; i++) {
-    list.push(i);
-    if (lastNumber % 5 === 0) {
-      console.log(fizzbuzz('buzz'))
-    }
+    const result = fizzbuzz(i)
+    list.push(result);
   }
-  console.log(list);
+  console.log(list)
   return list;
 }
