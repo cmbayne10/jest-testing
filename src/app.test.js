@@ -64,3 +64,14 @@ it("fizzbuzzTo returns a list of 15", () => {
 })
 
 });
+
+//expect.anything(),{
+//matches anything but null or undefined,
+//You can use it inside toEqual/toHaveBeenCalledWith,
+//}
+
+//.toHaveReturned(),{
+//If you have a mock function, you can use .toHaveReturned 
+//to test that the mock function successfully returned
+//(did not throw an error),
+//}
