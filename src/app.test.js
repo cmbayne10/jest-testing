@@ -2,7 +2,7 @@ import { add, subtract, multiply, divide, fizzbuzz, fizzbuzzTo } from "./app";
 
 describe("my test suite", () => {
   it("adds 1+1", () => {
-    expect(add(1, 1)).toEqual(2);
+    expect(add(1, 1)).toEqual();
   });
   it("subtracts 2-1", () => {
     expect(subtract(2, 1)).toEqual(1);
@@ -36,33 +36,47 @@ describe("my test suite", () => {
   xit("loop exercise", () => {
     for (let i = 0; i <= 10; i++) {
       console.log(i);
-  }
-  
+    }
   });
-it("fizzbuzzTo returns list of one", () => {
-  const result = fizzbuzzTo(1)
-  expect(result).toEqual([1])
- })
- it("fizzbuzzTo returns list of 20", () => {
-  const result = fizzbuzzTo(2)
-  expect(result).toEqual([1, 2])
- })
+  it("fizzbuzzTo returns list of one", () => {
+    const result = fizzbuzzTo(1);
+    expect(result).toEqual([1]);
+  });
+  it("fizzbuzzTo returns list of 20", () => {
+    const result = fizzbuzzTo(2);
+    expect(result).toEqual([1, 2]);
+  });
 
- it("fizzbuzzTo returns a list of three", () => {
-   const result = fizzbuzzTo(3);
-   expect(result).toEqual([1,2,"fizz"])
-})
+  it("fizzbuzzTo returns a list of three", () => {
+    const result = fizzbuzzTo(3);
+    expect(result).toEqual([1, 2, "fizz"]);
+  });
 
-it("fizzbuzzTo returns a list of 5", () => {
-  const result = fizzbuzzTo(5);
-  expect(result).toEqual([1,2,"fizz",4,"buzz"])
-})
+  it("fizzbuzzTo returns a list of 5", () => {
+    const result = fizzbuzzTo(5);
+    expect(result).toEqual([1, 2, "fizz", 4, "buzz"]);
+  });
 
-it("fizzbuzzTo returns a list of 15", () => {
-  const result = fizzbuzzTo(15);
-  expect(result).toEqual([1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11,"fizz",13,14,"fizzbuzz"])
-})
-
+  it("fizzbuzzTo returns a list of 15", () => {
+    const result = fizzbuzzTo(15);
+    expect(result).toEqual([
+      1,
+      2,
+      "fizz",
+      4,
+      "buzz",
+      "fizz",
+      7,
+      8,
+      "fizz",
+      "buzz",
+      11,
+      "fizz",
+      13,
+      14,
+      "fizzbuzz",
+    ]);
+  });
 });
 
 //expect.anything(),{
@@ -71,7 +85,7 @@ it("fizzbuzzTo returns a list of 15", () => {
 //}
 
 //.toHaveReturned(),{
-//If you have a mock function, you can use .toHaveReturned 
+//If you have a mock function, you can use .toHaveReturned
 //to test that the mock function successfully returned
 //(did not throw an error),
 //}
