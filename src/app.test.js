@@ -67,7 +67,7 @@ it("fizzbuzzTo returns a list of 15", () => {
 
 //expect.anything(),{
 //matches anything but null or undefined,
-//You can use it inside toEqual/toHaveBeenCalledWith,
+//You can use it inside toEqual/toHaveBeenCalledWith instead of a value,
 //}
 
 //.toHaveReturned(),{
