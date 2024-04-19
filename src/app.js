@@ -1,3 +1,5 @@
+import { getTimeStamp} from "./date";
+
 export function add(a, b) {
   return a + b;
 }
@@ -30,4 +32,8 @@ export function fizzbuzzTo(lastNumber) {
   }
   console.log(list)
   return list;
+}
+
+export function getUser() {
+  return {name: 'Anna', accountStart: getTimeStamp() }
 }
