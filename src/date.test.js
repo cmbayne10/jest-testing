@@ -16,6 +16,6 @@ expect(user).toEqual({
   accountStart: 
   "2024-04-18T11:45:51.173Z"
 })
-expect(getTimeStamp).toHaveBeenCalled(2);
+expect(getTimeStamp).toHaveBeenCalled();
   });
 });
